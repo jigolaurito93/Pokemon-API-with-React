@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function RacerTable({ racers }) {
-    const tableHeaders = ["#", 'First', 'Last', 'Points', 'Wins', 'Nationality', 'Constructor'];
+    const tableHeaders = ["#", 'Name', 'Height', 'Weight'];
 
     return (
         <table className="table table-primary table-striped">

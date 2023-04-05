@@ -15,6 +15,7 @@ export default function Navbar({ username, city }) {
                     <div className="navbar-nav">
                         <Link className="nav-link" to="/">Home</Link>
                         <Link className="nav-link" to="/racers">Racers</Link>
+                        <Link className="nav-link" to="/pokemon">Pokemon</Link>
                         <Link className="nav-link" to="/">Other</Link>
                     </div>
                 </div>

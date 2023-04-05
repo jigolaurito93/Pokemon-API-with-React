@@ -26,7 +26,7 @@ export default function RacerDisplay() {
 
     return (
         <div>
-            <h1 className="text-center">Racer Standings for the {season} Season, Round {round}</h1>
+            <h1 className="text-center">Pokemon API {season} {round}</h1>
             <RacerForm updateRacers={updateRacers}/>
             <RacerTable racers={racers} />
         </div>

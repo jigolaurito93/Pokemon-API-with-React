@@ -14,13 +14,10 @@ export default function RacerForm({ updateRacers }) {
     return (
         <form action="" className='row my-3' onSubmit={handleFormSubmit}>
             <div className="col-12 col-md-5">
-                <input type="text" name="season" className="form-control" placeholder='Enter Season e.g. 2023'/>
-            </div>
-            <div className="col-12 col-md-5">
-                <input type="text" name="round" className="form-control" placeholder='Enter Round e.g. 1' />
+                <input type="text" name="round" className="form-control" placeholder='Enter Pokemon Name' />
             </div>
             <div className="col">
-                <input type="submit" value="Search" className="btn btn-success w-100" />
+                <input type="submit" value="Search" className="btn btn-success w-30" />
             </div>
         </form>
     )
